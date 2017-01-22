@@ -255,16 +255,16 @@
 </footer>
 <!-- End footer -->
 <!-- jQuery library -->
-<script src="../../../Varsity/assets/js/jquery.min.js"></script>
+<script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../../../Varsity/assets/js/bootstrap.js"></script>
+<script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>
 <!-- Slick slider -->
-<script type="text/javascript" src="../../../Varsity/assets/js/slick.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/slick.js"></script>
 <!-- Counter -->
-<script type="text/javascript" src="../../../Varsity/assets/js/waypoints.js"></script>
-<script type="text/javascript" src="../../../Varsity/assets/js/jquery.counterup.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/waypoints.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.counterup.js"></script>
 <!-- Custom js -->
-<script src="../../../Varsity/assets/js/custom.js"></script>
+<script src="<?php echo base_url();?>assets/js/custom.js"></script>
 <script type="text/javascript">
   		var c = 60;
         var t;

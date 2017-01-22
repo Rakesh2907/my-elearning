@@ -20,7 +20,7 @@ class Courses extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('Courses');
+		$this->load->view('courses');
 	}
 	
 	public function details()
