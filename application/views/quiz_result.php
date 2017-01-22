@@ -76,7 +76,6 @@
           <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
           <li class="dropdown"><a href="<?php echo base_url();?>courses">Courses</a></li>
           <li><a href="<?php echo base_url();?>mycourses">My Courses</a></li>
-          <li><a href="<?php echo base_url();?>contactus">Contact</a></li>
           <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
         </ul>
       </div>
