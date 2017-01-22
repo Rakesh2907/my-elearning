@@ -94,8 +94,7 @@
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
             <li class="active"><a href="<?php echo base_url();?>">Home</a></li>            
             <li class="dropdown"><a href="<?php echo base_url();?>courses">Courses</a></li>           
-            <li><a href="<?php echo base_url();?>mycourses">My Courses</a></li>           
-            <li><a href="<?php echo base_url();?>contactus">Contact</a></li>               
+            <li><a href="<?php echo base_url();?>mycourses">My Courses</a></li>                          
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
           </ul>                     
         </div><!--/.nav-collapse -->        
@@ -152,7 +151,7 @@
                         <figure class="mu-latest-course-img">
                           <a href="#"><img src="<?php echo base_url();?>assets/img/courses/1.jpg" alt="img"></a>
                           <figcaption class="mu-latest-course-imgcaption">
-                            <a href="#">Drawing</a>
+                            <a href="#"><?php echo $course_name;?></a>
                             <span><i class="fa fa-clock-o"></i>90Days</span>
                           </figcaption>
                         </figure>

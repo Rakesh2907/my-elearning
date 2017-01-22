@@ -25,6 +25,30 @@ class Mycourses extends CI_Controller {
 	
 	public function details()
 	{
+	    switch ($course_id) {
+		   case 1 : $course_name = "PHP";
+		   break;
+		   
+		   case 2 : $course_name = "Java";
+		   break;
+		   
+		   case 3 : $course_name = "Java script";
+		   break;
+		   
+		   case 4 : $course_name = "Python";
+		   break; 
+		   
+		   case 5 : $course_name = "Bigdata";
+		   break;
+		   
+		   case 6 : $course_name = "Web Design";
+		   break;
+        }
+		
+		$data['course_id'] = $course_id;
+		$data['course_name'] = $course_name;
+		
+		$this->load->view('course-detail',$data);
 	    $this->load->view('mycourses_details');
 	}
 	
@@ -35,6 +59,25 @@ class Mycourses extends CI_Controller {
 	
 	public function quiz_result()
 	{
-	    $this->load->view('quiz_result');
+		  $count = 0;
+	      foreach($_POST as $key => $val){
+		      if('first' ==  $key && $val == 1){
+			     $count = $count + 1;
+			  }
+			  if('second' ==  $key && $val == 3){
+			     $count = $count + 1;
+			  }
+			  
+			  if('third' ==  $key && $val == 4){
+			     $count = $count + 1;
+			  }
+			  
+			  if('four' ==  $key && $val == 2){
+			     $count = $count + 1;
+			  }
+		  }
+		  $data['myscore'] = (($count/4)* 100);
+		  
+	      $this->load->view('quiz_result',$data);
 	}
 }

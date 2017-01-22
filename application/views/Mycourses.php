@@ -150,7 +150,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/1.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
+                          <a href="#">PHP</a>
                           <span><i class="fa fa-clock-o"></i>90Days</span>
                         </figcaption>
                       </figure>
@@ -158,8 +158,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details">Details</a>
-						  <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/1">Details</a>
+						  <a href="<?php echo base_url();?>mycourses/take_exam/1"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div> 
@@ -169,7 +169,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/2.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
+                          <a href="#">Java </a>
                           <span><i class="fa fa-clock-o"></i>75Days</span>
                         </figcaption>
                       </figure>
@@ -177,8 +177,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details">Details</a>
-						  <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/2">Details</a>
+						  <a href="<?php echo base_url();?>mycourses/take_exam/2"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div>
@@ -188,7 +188,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/1.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
+                          <a href="#">Javascript</a>
                           <span><i class="fa fa-clock-o"></i>90Days</span>
                         </figcaption>
                       </figure>
@@ -196,8 +196,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/3">Details</a>
+                          <a href="<?php echo base_url();?>mycourses/take_exam/3"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div> 
@@ -207,7 +207,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/2.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
+                          <a href="#">Python </a>
                           <span><i class="fa fa-clock-o"></i>75Days</span>
                         </figcaption>
                       </figure>
@@ -215,8 +215,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/4">Details</a>
+                          <a href="<?php echo base_url();?>mycourses/take_exam/4"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div>
@@ -226,7 +226,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/1.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Drawing</a>
+                          <a href="#">Bigdata</a>
                           <span><i class="fa fa-clock-o"></i>90Days</span>
                         </figcaption>
                       </figure>
@@ -234,8 +234,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/5">Details</a>
+                          <a href="<?php echo base_url();?>mycourses/take_exam/5"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div> 
@@ -245,7 +245,7 @@
                       <figure class="mu-latest-course-img">
                         <a href="#"><img src="<?php echo base_url();?>assets/img/courses/2.jpg" alt="img"></a>
                         <figcaption class="mu-latest-course-imgcaption">
-                          <a href="#">Engineering </a>
+                          <a href="#">Web Design </a>
                           <span><i class="fa fa-clock-o"></i>75Days</span>
                         </figcaption>
                       </figure>
@@ -253,8 +253,8 @@
                         <h4><a href="#">Lorem ipsum dolor sit amet.</a></h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet quod nisi quisquam modi dolore, dicta obcaecati architecto quidem ullam quia.</p>
                         <div class="mu-latest-course-single-contbottom">
-                          <a class="mu-course-details" href="#">Details</a>
-                          <a href="<?php echo base_url();?>mycourses/take_exam"><span class="mu-course-price" href="#">Take Exam</span></a>
+                          <a class="mu-course-details" href="<?php echo base_url();?>courses/details/6">Details</a>
+                          <a href="<?php echo base_url();?>mycourses/take_exam/6"><span class="mu-course-price" href="#">Take Exam</span></a>
                         </div>
                       </div>
                     </div>

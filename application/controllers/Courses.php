@@ -23,8 +23,31 @@ class Courses extends CI_Controller {
 		$this->load->view('courses');
 	}
 	
-	public function details()
+	public function details($course_id)
 	{
-		$this->load->view('course-detail');
+	    switch ($course_id) {
+		   case 1 : $course_name = "PHP";
+		   break;
+		   
+		   case 2 : $course_name = "Java";
+		   break;
+		   
+		   case 3 : $course_name = "Java script";
+		   break;
+		   
+		   case 4 : $course_name = "Python";
+		   break; 
+		   
+		   case 5 : $course_name = "Bigdata";
+		   break;
+		   
+		   case 6 : $course_name = "Web Design";
+		   break;
+        }
+		
+		$data['course_id'] = $course_id;
+		$data['course_name'] = $course_name;
+		
+		$this->load->view('course-detail',$data);
 	}
 }

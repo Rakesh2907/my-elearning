@@ -151,7 +151,7 @@
                         <figure class="mu-latest-course-img">
                           <a href="#"><img src="<?php echo base_url();?>assets/img/courses/1.jpg" alt="img"></a>
                           <figcaption class="mu-latest-course-imgcaption">
-                            <a href="#">Drawing</a>
+                            <a href="#"><?php echo $course_name;?></a>
                             <span><i class="fa fa-clock-o"></i>90Days</span>
                           </figcaption>
                         </figure>

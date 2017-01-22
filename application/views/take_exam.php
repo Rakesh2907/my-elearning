@@ -121,71 +121,58 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-        <form class="form-horizontal" role="form" id='quiz_form' method="post" action="quiz_result">
+        <form class="form-horizontal" role="form" id='quiz_form' method="post" action="<?php echo base_url();?>mycourses/quiz_result">
           <div class='cont' id='question_splitter_1'>
             <div id='question1' >
               <p class='questions' id="qname1"> 1.What is the correct tag to call external CSS ? </p>
-              <input type="radio" value="1" id='radio1_7' name='7'/>
+              <input type="radio" value="1" id='radio1_7' name='first'/>
               &lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt; <br/>
-              <input type="radio" value="2" id='radio1_7' name='7'/>
+              <input type="radio" value="2" id='radio1_7' name='first'/>
               &lt;style src="mystyle.css"&gt; <br/>
-              <input type="radio" value="3" id='radio1_7' name='7'/>
+              <input type="radio" value="3" id='radio1_7' name='first'/>
               &lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt; <br/>
-              <input type="radio" value="4" id='radio1_7' name='7'/>
+              <input type="radio" value="4" id='radio1_7' name='first'/>
               &lt;style&gt;mystyle.css&lt;/style&gt; <br/>
-              <input type="radio" checked='checked' style='display:none' value="smart_quiz" id='radio1_7' name='7'/>
+              <input type="radio" checked='checked' style='display:none' value="first" id='radio1_7' name='1'/>
               <br/>
             </div>
             <div id='question2' >
               <p class='questions' id="qname1"> 2.Where in an HTML document is the correct place to refer to an external style sheet? </p>
-              <input type="radio" value="1" id='radio1_8' name='8'/>
+              <input type="radio" value="1" id='radio1_8' name='second'/>
               At the end of the document <br/>
-              <input type="radio" value="2" id='radio1_8' name='8'/>
+              <input type="radio" value="2" id='radio1_8' name='second'/>
               At the top of the document <br/>
-              <input type="radio" value="3" id='radio1_8' name='8'/>
+              <input type="radio" value="3" id='radio1_8' name='second'/>
               In the &lt;head&gt; section <br/>
-              <input type="radio" value="4" id='radio1_8' name='8'/>
+              <input type="radio" value="4" id='radio1_8' name='second'/>
               In the &lt;body&gt; section <br/>
-              <input type="radio" checked='checked' style='display:none' value="smart_quiz" id='radio1_8' name='8'/>
+              <input type="radio" checked='checked' style='display:none' value="second" id='radio1_8' name='3'/>
               <br/>
             </div>
             <div id='question3' >
               <p class='questions' id="qname1"> 3.Which HTML attribute is used to define inline styles? </p>
-              <input type="radio" value="1" id='radio1_10' name='10'/>
+              <input type="radio" value="1" id='radio1_10' name='third'/>
               font <br/>
-              <input type="radio" value="2" id='radio1_10' name='10'/>
+              <input type="radio" value="2" id='radio1_10' name='third'/>
               class <br/>
-              <input type="radio" value="3" id='radio1_10' name='10'/>
+              <input type="radio" value="3" id='radio1_10' name='third'/>
               styles <br/>
-              <input type="radio" value="4" id='radio1_10' name='10'/>
+              <input type="radio" value="4" id='radio1_10' name='third'/>
               style <br/>
-              <input type="radio" checked='checked' style='display:none' value="smart_quiz" id='radio1_10' name='10'/>
+              <input type="radio" checked='checked' style='display:none' value="third" id='radio1_10' name='4'/>
               <br/>
             </div>
             <div id='question4' >
-              <p class='questions' id="qname1"> 4.Which HTML tag is used to define an internal style sheet? </p>
-              <input type="radio" value="1" id='radio1_9' name='9'/>
-              &lt;script&gt; <br/>
-              <input type="radio" value="2" id='radio1_9' name='9'/>
-              &lt;style&gt; <br/>
-              <input type="radio" value="3" id='radio1_9' name='9'/>
-              &lt;css&gt; <br/>
-              <input type="radio" value="4" id='radio1_9' name='9'/>
-              &lt;link&gt; <br/>
-              <input type="radio" checked='checked' style='display:none' value="smart_quiz" id='radio1_9' name='9'/>
-              <br/>
-            </div>
-            <div id='question5' >
-              <p class='questions' id="qname1"> 5.CSS stand for	What ? </p>
-              <input type="radio" value="1" id='radio1_6' name='6'/>
+              <p class='questions' id="qname1"> 4.CSS stand for	What ? </p>
+              <input type="radio" value="1" id='radio1_6' name='four'/>
               Colorful Style Sheets <br/>
-              <input type="radio" value="2" id='radio1_6' name='6'/>
+              <input type="radio" value="2" id='radio1_6' name='four'/>
               Cascading Style Sheets <br/>
-              <input type="radio" value="3" id='radio1_6' name='6'/>
+              <input type="radio" value="3" id='radio1_6' name='four'/>
               Computer Style Sheets <br/>
-              <input type="radio" value="4" id='radio1_6' name='6'/>
+              <input type="radio" value="4" id='radio1_6' name='four'/>
               Creative Style Sheets <br/>
-              <input type="radio" checked='checked' style='display:none' value="smart_quiz" id='radio1_6' name='6'/>
+              <input type="radio" checked='checked' style='display:none' value="four" id='radio1_6' name='2'/>
               <br/>
             </div>
             <button id='1' class='next btn btn-success' type='submit' style="background-color:#01bafd; background:#01bafd;">Finish</button>
