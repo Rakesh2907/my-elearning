@@ -106,7 +106,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="mu-page-breadcrumb-area">
-          <h2>Timer : <span id='timer'></span></h2>
+          <h2><span id='timer'></span></h2>
           <ol class="breadcrumb">
             <li><a href="<?php echo base_url();?>">Home</a></li>
             <li class="active">Exam</li>
