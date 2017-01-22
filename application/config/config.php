@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://my-elearning.herokuapp.com/';   //http://localhost/myeLearning/
+$config['base_url'] = 'https://immense-waters-26996.herokuapp.com/';   //http://localhost/myeLearning/
 
 /*
 |--------------------------------------------------------------------------
