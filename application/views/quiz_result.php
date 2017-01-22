@@ -121,6 +121,9 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+	       Total Question : 5 
+		   Score : 50%
+	       <a href="<?php echo base_url();?>mycourses/certificate">Get Certificate</a>	   
       </div>
 	</div>
   </div>
